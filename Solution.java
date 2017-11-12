@@ -37,7 +37,7 @@ public class Solution {
     }
 
     static long gcm(long a, long b) {
-    return b == 0 ? a : gcm(b, a % b); // Not bad for one line of code :)
+    return b == 0 ? a : gcm(b, a % b);
     }
 
     static String asFraction(long a, long b) {
