@@ -7,7 +7,6 @@ import java.util.regex.*;
 public class Solution {
 
     static void expectedAmount(long[] a,int n) throws Throwable {
-        // Complete this function
         ArrayList<long[]> subsets = new ArrayList<>();
         int k;
         long sum = 0;
