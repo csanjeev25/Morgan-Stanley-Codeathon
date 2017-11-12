@@ -1,9 +1,6 @@
-#!/bin/python3
-
 import sys
 
 def maximizeProfit(a, b, m, k):
-    # Complete this function
     bitcoinDollar = m*k
     c = [];
     c.append(bitcoinDollar)
